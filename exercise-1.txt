@@ -1,0 +1,9 @@
+STORE "m" with any value
+STORE "a" with any value
+STORE "F" without any value
+
+CALCULATE "m" times "a"
+SET "F" value with calculation result
+
+DISPLAY "F"
+
