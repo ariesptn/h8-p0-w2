@@ -2,9 +2,10 @@ function konversiMenit(menit) {
     var h = parseInt(menit / 60);
     var m = parseInt(menit % 60);
     if (m < 10) {
-        m = '0' + m;
+        return h + ':0' + m;
+    } else {
+        return h + ':' + m;
     }
-    return h + ':' + m;
 }
 
 // TEST CASES
