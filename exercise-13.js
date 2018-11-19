@@ -2,13 +2,13 @@ function xo(str) {
     var x = 0;
     var o = 0;
     for (var i = 0; i < str.length; i++) {
-        if (str[i] == 'x') {
+        if (str[i] === 'x') {
             x++
-        } else if (str[i] == 'o') {
+        } else if (str[i] === 'o') {
             o++;
         }
     }
-    return x == o;
+    return x === o;
 }
 
 // TEST CASES
