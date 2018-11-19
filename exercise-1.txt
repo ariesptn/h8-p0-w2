@@ -1,3 +1,5 @@
+1. Newton Second Law
+--------------------
 STORE "m" with any value
 STORE "a" with any value
 STORE "F" without any value
@@ -6,4 +8,48 @@ CALCULATE "m" times "a"
 SET "F" value with calculation result
 
 DISPLAY "F"
+
+
+2. Tahun Kabisat
+----------------
+STORE "tahun"
+STORE "kabisat"
+
+IF "tahun" mod 4 == 0 DO
+	IF "tahun" mod 100 == 0 DO
+		IF "tahun" mod 400 == 0 DO
+			SET "kabisat" TO true
+		ELSE DO
+			SET "kabisat" TO false
+	ELSE DO
+		SET "kabisat" TO true
+ELSE DO
+	SET "kabisat" TO false 
+	
+DISPLAY "kabisat"
+
+
+3. Laundry Day
+--------------
+STORE "urutan" = 0
+STORE "jumlah" = 20
+
+WHILE "urutan" < "jumlah" DO
+	"masukkan baju"
+	urutan = urutan + 1
+"jalankan mesin"
+
+
+4. Periksa Kuku
+---------------
+STORE "urutan" = 0
+STORE "jumlah" = 40
+
+WHILE "urutan" < "jumlah" DO
+	IF "kuku_panjang" DO
+		"hukum_siswa"
+	ELSE DO
+		"puji_siswa"
+	urutan = urutan + 1
+
 
