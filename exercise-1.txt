@@ -46,10 +46,8 @@ STORE "urutan" = 0
 STORE "jumlah" = 40
 
 WHILE "urutan" < "jumlah" DO
-	IF "kuku_panjang" DO
+	IF "kuku" == "panjang" DO
 		"hukum_siswa"
 	ELSE DO
 		"puji_siswa"
 	urutan = urutan + 1
-
-
