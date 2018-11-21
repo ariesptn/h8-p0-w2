@@ -1,14 +1,14 @@
 function xo(str) {
-    var x = 0;
-    var o = 0;
+    var totalX = 0;
+    var totalO = 0;
     for (var i = 0; i < str.length; i++) {
         if (str[i] === 'x') {
-            x++
+            totalX++
         } else if (str[i] === 'o') {
-            o++;
+            totalO++;
         }
     }
-    return x === o;
+    return totalX === totalO;
 }
 
 // TEST CASES

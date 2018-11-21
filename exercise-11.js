@@ -1,9 +1,9 @@
 function balikKata(kata) {
-    var s = '';
+    var result = '';
     for (var i = kata.length; i > 0; i--) {
-        s = s + kata[i-1];
+        result = result + kata[i-1];
     }
-    return s;
+    return result;
 }
 
 // TEST CASES
