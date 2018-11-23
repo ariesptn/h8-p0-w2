@@ -1,7 +1,7 @@
 var hari = 31;
 var bulan = 12;
 var tahun = 2200;
-var namabulan = '';
+var namaBulan = '';
 
 if (hari < 1 || hari > 31) {
     console.log('format hari salah');
@@ -12,41 +12,41 @@ if (hari < 1 || hari > 31) {
 } else {
     switch (bulan) {
         case 1:
-            namabulan = 'Januari';
+            namaBulan = 'Januari';
             break;
         case 2:
-            namabulan = 'Febuari';
+            namaBulan = 'Febuari';
             break;
         case 3:
-            namabulan = 'Maret';
+            namaBulan = 'Maret';
             break;
         case 4:
-            namabulan = 'April';
+            namaBulan = 'April';
             break;
         case 5:
-            namabulan = 'Mei';
+            namaBulan = 'Mei';
             break;
         case 6:
-            namabulan = 'Juni';
+            namaBulan = 'Juni';
             break;
         case 7:
-            namabulan = 'Juli';
+            namaBulan = 'Juli';
             break;
         case 8:
-            namabulan = 'Agustus';
+            namaBulan = 'Agustus';
             break;
         case 9:
-            namabulan = 'September';
+            namaBulan = 'September';
             break;
         case 10:
-            namabulan = 'Oktober';
+            namaBulan = 'Oktober';
             break;
         case 11:
-            namabulan = 'November';
+            namaBulan = 'November';
             break;
         case 12:
-            namabulan = 'Desember';
+            namaBulan = 'Desember';
             break;
     }
-    console.log(hari + ' ' + namabulan + ' ' + tahun);
+    console.log(hari + ' ' + namaBulan + ' ' + tahun);
 }
